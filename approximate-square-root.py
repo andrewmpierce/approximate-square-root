@@ -1,6 +1,7 @@
 import sys
 
-x = int(input("What's your number? Must be positive."))
+x = input("What's your number? Must be positive.")
+if x == str(x): sys.exit("Thats not a valid response.")
 if not x >= 1: sys.exit("That's not a valid response.")
 
 x = int(x)
