@@ -1,7 +1,7 @@
 import sys
 
 try:
-    x = int(input("What's your number? Must be positive.\n"))
+    x = float(input("What's your number? Must be positive.\n"))
 except:
     sys.exit("That's not a valid response.")
 if x <= 0: sys.exit("That's not a valid response.")
