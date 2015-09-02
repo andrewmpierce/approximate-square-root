@@ -13,6 +13,6 @@ def sqrt():
         y = (y + (x/y))/2
         counter += 1
         print("This is round {}".format(counter))
-        print(y) #Used to test while loop
+        #print(y) #Used to test while loop
     return print(y)
 sqrt()
